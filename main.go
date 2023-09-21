@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(ContainsDuplicate.Run([]int{2, 14, 18, 22, 22}))
+	fmt.Println(ContainsDuplicate.Solution([]int{2, 14, 18, 22, 22}))
 }
