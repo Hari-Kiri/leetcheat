@@ -22,7 +22,7 @@ func Solution(s string, t string) bool {
 		temp[string(sLower[i])]++
 	}
 
-	// Loop through sLower
+	// Loop through tLower
 	for i := 0; i < len(tLower); i++ {
 		// Decrease the value in every key using -- (minus minus) operator.
 		// We use tLower[i] as key now and when the key from tLower[i] not present in temp,
