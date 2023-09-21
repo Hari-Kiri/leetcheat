@@ -4,6 +4,7 @@ import (
 	"strings"
 )
 
+// Check two string is anagram or not.
 func Solution(s string, t string) bool {
 	// Stop when s & t not in same length
 	if len(s) != len(t) {
