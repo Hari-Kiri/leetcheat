@@ -5,6 +5,8 @@ import (
 )
 
 // Check two string is anagram or not.
+// The goal is to check count every alphabet in s & t
+// then compare it has same count or not.
 func Solution(s string, t string) bool {
 	// Stop when s & t not in same length
 	if len(s) != len(t) {

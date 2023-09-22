@@ -1,6 +1,9 @@
 package ContainsDuplicate
 
 // Check if any duplicate in array.
+// The goal is to push element to temporary data map or dictionary
+// one by one using loop then check it in next loop is any element
+// before if it have been on temporary data map.
 func Solution(nums []int) bool {
 	// Declare return value variable
 	var anyDuplicate bool
