@@ -8,6 +8,6 @@ import (
 )
 
 func main() {
-	fmt.Println(ContainsDuplicate.Solution([]int{2, 14, 18, 22, 22}))
+	fmt.Println(ContainsDuplicate.Solution([]int{22, 14, 2, 18, 22}))
 	fmt.Println(IsAnagram.Solution("anagram", "nagaram"))
 }
