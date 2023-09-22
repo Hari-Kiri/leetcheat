@@ -9,7 +9,7 @@ func Solution(nums []int) bool {
 	var anyDuplicate bool
 
 	// Declare data map or other key = value pair data in other language
-	temp := make(map[int]bool, 0)
+	temp := make(map[int]bool, len(nums))
 
 	// Loop through nums
 	for i := 0; i < len(nums); i++ {
