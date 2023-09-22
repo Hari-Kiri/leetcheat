@@ -20,16 +20,16 @@ func Solution(s string, t string) bool {
 	temp := make(map[string]int)
 	// Loop through sLower
 	for i := 0; i < len(sLower); i++ {
-		// Add new key to temp using sLower[i] as key and value integer + 1 using ++ (plus plus) operator
-		temp[string(sLower[i])]++
+		// Add new key to temp using sLower[i] as key and increment value
+		temp[string(sLower[i])] = temp[string(sLower[i])] + 1
 	}
 
 	// Loop through tLower
 	for i := 0; i < len(tLower); i++ {
-		// Decrease the value in every key using -- (minus minus) operator.
+		// Decrease the value in every key.
 		// We use tLower[i] as key now and when the key from tLower[i] not present in temp,
 		// The compiler will add new key with value minus 1 (-1).
-		temp[string(tLower[i])]--
+		temp[string(tLower[i])] = temp[string(tLower[i])] - 1
 		// Detect -1 then return false
 		// When minus 1 detected s & t is not anagram
 		if temp[string(tLower[i])] < 0 {
