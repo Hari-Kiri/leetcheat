@@ -1,1 +1,3 @@
-# leetcheat
+# Leetcheat
+
+A collection of test leetcode solutions to get a job as a software developer. Solutions are written in Go using the most basic and simple techniques, so they are easy to understand and can be translated into other programming languages. Performance and efficiency are ignored, what is important is that it is sufficient to run on a leetcode like server. Improvise so that the codes become efficient. This collection will always be updated with new leetcode challenges that I find.
